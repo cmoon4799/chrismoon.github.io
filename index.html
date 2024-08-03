@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cinema Chronicles</title>
+  <title>Movies</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -48,8 +49,22 @@
       margin: 10px;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      width: calc(33% - 40px);
+      width: 60%;
       box-sizing: border-box;
+    }
+
+    .review-content {
+      display: flex;
+    }
+
+    .review-paragraph {
+      margin-left: 10px;
+      /* border: 2px solid black; */
+    }
+
+    .review-paragraph p {
+      /* border: 2px solid blue; */
+      margin-top: 0px;
     }
 
     .review h2 {
@@ -65,37 +80,61 @@
       bottom: 0;
       width: 100%;
     }
+
+    .thumbs-up {
+      color: green;
+    }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>Cinema Chronicles</h1>
+    <h1>Movie Reviews</h1>
   </header>
   <div class="container">
-    <section class="intro">
-      <h2>Welcome to Cinema Chronicles</h2>
-      <p>Your go-to blog for honest and insightful movie reviews. Dive into the world of cinema with us and explore the
-        magic of movies from all genres and eras.</p>
-    </section>
     <section class="reviews">
       <div class="review">
-        <h2>Review Title 1</h2>
-        <p>Short description of the review goes here. This is where you can give a brief overview of your thoughts on
-          the movie.</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="review">
-        <h2>Review Title 2</h2>
-        <p>Short description of the review goes here. This is where you can give a brief overview of your thoughts on
-          the movie.</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="review">
-        <h2>Review Title 3</h2>
-        <p>Short description of the review goes here. This is where you can give a brief overview of your thoughts on
-          the movie.</p>
-        <a href="#">Read More</a>
+        <h2>Trap (2024) <i class="fas fa-thumbs-up thumbs-icon thumbs-up"></i></h2>
+        <div class="review-content">
+          <img class="review-poster" src="./posters/trap_2024.jpg">
+          <div class="review-paragraph">
+            <p>8/2/2024</p>
+            <p>
+              Nowadays, trailers seem to give a lot away with this movie being no exception, or so I thought. There's
+              always a twist
+              with
+              Shyamalan so obviously it couldn't have revealed everything! I suppose the twist might have been no
+              twist at all, which I'm always keeping in the back of my mind; one of these days, Manoj will throw a
+              curveball, except there is no ball.
+            </p>
+            <p>
+              Josh Hartnett is clearly the killer and we know who the victim is. "Pack it up guys, we can go home
+              early!" But
+              the grip of the plot is how Josh evades the police with clever tactics. The <i>how</i> of it all, that is
+              how the manhunt started, is also a nice little reveal. The pacing felt nice with gradual, well spaced
+              tensions: the boxcutter scene with Jamie, Lady Raven stealing Josh's phone, to Josh somehow escaping the
+              limousine (which was baloney but I can be thrown a curveball, right Manoj?).
+            </p>
+            <p>
+              Character decisions seemed to be spot on. When Josh reveals his identity to Lady Raven in her
+              dressing room, I personally would cooperate and yell for security as soon as we walk out. This
+              does kill Spencer, but the reasoning being kill one to save many? This might just be shortsightedness on
+              my part because the sequence of events leading to Raven's clever rescue doesn't seem farfetched at all.
+              Josh's wife, long lost descendant of Hercule Poirot, is a genius. The standoff between her and Josh made
+              me think of possible non-invasive ways a surveillance team might be alerted of an intruder: a heartbeat
+              monitor with abnormal rates triggering a check in, microphones but only triggered on certain "words"
+              (cough Alexa), or just an old-fashioned button.
+            </p>
+            <p>
+              Overall,
+              enjoyable morsel from MNS. To state the obvious, it wasn't an "opus backed by unlimited budget"
+              by
+              design
+              as the characters and setting are limited and nicely contained (literally). These are the sort of flicks
+              that tug at my moviestrings, probably because you're forced to dive than wade on the surface. Thumbs up!
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   </div>
